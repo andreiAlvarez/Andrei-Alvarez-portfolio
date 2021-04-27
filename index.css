@@ -5,6 +5,7 @@ section {
 }
 
 canvas {
+
 	display: inline-block;
 }
 
@@ -34,10 +35,6 @@ hr {
 	font-size: 15px;
 }
 
-html {
-	background: #000;
-}
-
 body {
 	font-family: "Raleway", Oxygen, 'Open Sans', -apple-system, Ubuntu, Cantarell, BlinkMacSystemFont, Roboto, 'Segoe UI', 'Helvetica Neue', sans-serif;
 	min-height: 100vh;
@@ -52,6 +49,11 @@ body {
 	--color-link: #3c48fa;
 	--color-link-hover: #fff;
 	--color-title: #fff;
+}
+
+h1 {
+	color: white;
+	height: 10vh;
 }
 
 .content--canvas {
@@ -80,7 +82,7 @@ body {
 
 .content__title__two {
 	position: absolute;
-	top: 60%;
+	top: 56%;
 	left: 0;
 	width: 100%;
 	text-align: center;
@@ -95,6 +97,22 @@ body {
 .highlight {
 	color: rgb(197, 193, 252);
 	font-weight: 600;
+}
+
+.projects {
+	width: 100vw;
+	height: 100vh;
+	background-color: yellow;
+}
+
+.about__me {
+	width: 100vw;
+	height: 100vh;
+}
+
+.contact__me {
+	width: 100vw;
+	height: 100vh;
 }
 
 @media screen and (min-width: 53em) {
